@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class Task3 {
     public static void main(String[] args) {
         int[] inArr1 = new int[]{9, 8, 7, 6, 5};
-        int[] inArr2 = new int[]{4, 3, 2, 1, 0}; // {4, 3, 2, 1, 0}
+        int[] inArr2 = new int[]{4, 3, 2, 1, 1}; // {4, 3, 2, 1, 0} {4, 3, 2, 1}
 
         Execution execution = new Execution();
         System.out.println(Arrays.toString(execution.divArray(inArr1, inArr2)));
