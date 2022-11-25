@@ -71,7 +71,7 @@ class Record{
             try {
                 ParseData();
             } catch (InputException e) {
-                e.printStackTrace();
+                //e.printStackTrace();
                 res = -3;
             }
         }
